@@ -1,6 +1,6 @@
 var viewer_port = 415; //port where all your viewers will connect
 var streamer_port = 9158; //port for streamer
-var agar_server = 'ws://1.1.1.1:443'; //remote agar server
+var agar_server = 'ws://151.80.98.50:1505'; //remote agar server
 
 var WebSocket = require('ws');
 var WebSocketServer = WebSocket.Server;
